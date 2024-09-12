@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/Users/etienne/Documents/Developer/O12_Path_tracing/build",
+  "command": "/usr/bin/clang++  -I/Users/etienne/Documents/Developer/O12_Path_tracing/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wall -fsanitize=address -o CMakeFiles/main.dir/src/main.cpp.o -c /Users/etienne/Documents/Developer/O12_Path_tracing/src/main.cpp",
+  "file": "/Users/etienne/Documents/Developer/O12_Path_tracing/src/main.cpp",
+  "output": "CMakeFiles/main.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/etienne/Documents/Developer/O12_Path_tracing/build",
+  "command": "/usr/bin/clang++  -I/Users/etienne/Documents/Developer/O12_Path_tracing/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wall -fsanitize=address -o CMakeFiles/main.dir/src/render_images.cpp.o -c /Users/etienne/Documents/Developer/O12_Path_tracing/src/render_images.cpp",
+  "file": "/Users/etienne/Documents/Developer/O12_Path_tracing/src/render_images.cpp",
+  "output": "CMakeFiles/main.dir/src/render_images.cpp.o"
+},
+{
+  "directory": "/Users/etienne/Documents/Developer/O12_Path_tracing/build",
+  "command": "/usr/bin/clang++  -I/Users/etienne/Documents/Developer/O12_Path_tracing/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wall -fsanitize=address -o CMakeFiles/main.dir/src/vec3.cpp.o -c /Users/etienne/Documents/Developer/O12_Path_tracing/src/vec3.cpp",
+  "file": "/Users/etienne/Documents/Developer/O12_Path_tracing/src/vec3.cpp",
+  "output": "CMakeFiles/main.dir/src/vec3.cpp.o"
+},
+{
+  "directory": "/Users/etienne/Documents/Developer/O12_Path_tracing/build",
+  "command": "/usr/bin/clang++  -I/Users/etienne/Documents/Developer/O12_Path_tracing/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wall -fsanitize=address -o CMakeFiles/main.dir/src/color.cpp.o -c /Users/etienne/Documents/Developer/O12_Path_tracing/src/color.cpp",
+  "file": "/Users/etienne/Documents/Developer/O12_Path_tracing/src/color.cpp",
+  "output": "CMakeFiles/main.dir/src/color.cpp.o"
+},
+{
+  "directory": "/Users/etienne/Documents/Developer/O12_Path_tracing/build",
+  "command": "/usr/bin/clang++  -I/Users/etienne/Documents/Developer/O12_Path_tracing/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wall -fsanitize=address -o CMakeFiles/main.dir/src/image.cpp.o -c /Users/etienne/Documents/Developer/O12_Path_tracing/src/image.cpp",
+  "file": "/Users/etienne/Documents/Developer/O12_Path_tracing/src/image.cpp",
+  "output": "CMakeFiles/main.dir/src/image.cpp.o"
+}
+]

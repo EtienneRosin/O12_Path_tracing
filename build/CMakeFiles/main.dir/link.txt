@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -fsanitize=address CMakeFiles/main.dir/src/main.cpp.o CMakeFiles/main.dir/src/render_images.cpp.o CMakeFiles/main.dir/src/vec3.cpp.o CMakeFiles/main.dir/src/color.cpp.o CMakeFiles/main.dir/src/image.cpp.o -o main
