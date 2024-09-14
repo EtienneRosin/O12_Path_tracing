@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 project(O12_Path_Tracing)
-add_executable(main src/main.cpp src/render_images.cpp src/vec3.cpp src/color.cpp src/image.cpp)
+add_executable(main src/main.cpp src/background.cpp src/color.cpp src/elements.cpp src/light.cpp src/ray.cpp src/scene.cpp src/screen.cpp src/vec3.cpp)
 target_include_directories(main PRIVATE include)
 target_compile_features(main PRIVATE cxx_std_17)
 target_compile_options(main PRIVATE -Wall -fsanitize=address)

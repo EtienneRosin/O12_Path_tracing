@@ -129,6 +129,30 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+src/background.o: src/background.cpp.o
+.PHONY : src/background.o
+
+# target to build an object file
+src/background.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/background.cpp.o
+.PHONY : src/background.cpp.o
+
+src/background.i: src/background.cpp.i
+.PHONY : src/background.i
+
+# target to preprocess a source file
+src/background.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/background.cpp.i
+.PHONY : src/background.cpp.i
+
+src/background.s: src/background.cpp.s
+.PHONY : src/background.s
+
+# target to generate assembly for a file
+src/background.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/background.cpp.s
+.PHONY : src/background.cpp.s
+
 src/color.o: src/color.cpp.o
 .PHONY : src/color.o
 
@@ -153,29 +177,53 @@ src/color.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/color.cpp.s
 .PHONY : src/color.cpp.s
 
-src/image.o: src/image.cpp.o
-.PHONY : src/image.o
+src/elements.o: src/elements.cpp.o
+.PHONY : src/elements.o
 
 # target to build an object file
-src/image.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/image.cpp.o
-.PHONY : src/image.cpp.o
+src/elements.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/elements.cpp.o
+.PHONY : src/elements.cpp.o
 
-src/image.i: src/image.cpp.i
-.PHONY : src/image.i
+src/elements.i: src/elements.cpp.i
+.PHONY : src/elements.i
 
 # target to preprocess a source file
-src/image.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/image.cpp.i
-.PHONY : src/image.cpp.i
+src/elements.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/elements.cpp.i
+.PHONY : src/elements.cpp.i
 
-src/image.s: src/image.cpp.s
-.PHONY : src/image.s
+src/elements.s: src/elements.cpp.s
+.PHONY : src/elements.s
 
 # target to generate assembly for a file
-src/image.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/image.cpp.s
-.PHONY : src/image.cpp.s
+src/elements.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/elements.cpp.s
+.PHONY : src/elements.cpp.s
+
+src/light.o: src/light.cpp.o
+.PHONY : src/light.o
+
+# target to build an object file
+src/light.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/light.cpp.o
+.PHONY : src/light.cpp.o
+
+src/light.i: src/light.cpp.i
+.PHONY : src/light.i
+
+# target to preprocess a source file
+src/light.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/light.cpp.i
+.PHONY : src/light.cpp.i
+
+src/light.s: src/light.cpp.s
+.PHONY : src/light.s
+
+# target to generate assembly for a file
+src/light.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/light.cpp.s
+.PHONY : src/light.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -201,29 +249,77 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/render_images.o: src/render_images.cpp.o
-.PHONY : src/render_images.o
+src/ray.o: src/ray.cpp.o
+.PHONY : src/ray.o
 
 # target to build an object file
-src/render_images.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/render_images.cpp.o
-.PHONY : src/render_images.cpp.o
+src/ray.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/ray.cpp.o
+.PHONY : src/ray.cpp.o
 
-src/render_images.i: src/render_images.cpp.i
-.PHONY : src/render_images.i
+src/ray.i: src/ray.cpp.i
+.PHONY : src/ray.i
 
 # target to preprocess a source file
-src/render_images.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/render_images.cpp.i
-.PHONY : src/render_images.cpp.i
+src/ray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/ray.cpp.i
+.PHONY : src/ray.cpp.i
 
-src/render_images.s: src/render_images.cpp.s
-.PHONY : src/render_images.s
+src/ray.s: src/ray.cpp.s
+.PHONY : src/ray.s
 
 # target to generate assembly for a file
-src/render_images.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/render_images.cpp.s
-.PHONY : src/render_images.cpp.s
+src/ray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/ray.cpp.s
+.PHONY : src/ray.cpp.s
+
+src/scene.o: src/scene.cpp.o
+.PHONY : src/scene.o
+
+# target to build an object file
+src/scene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/scene.cpp.o
+.PHONY : src/scene.cpp.o
+
+src/scene.i: src/scene.cpp.i
+.PHONY : src/scene.i
+
+# target to preprocess a source file
+src/scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/scene.cpp.i
+.PHONY : src/scene.cpp.i
+
+src/scene.s: src/scene.cpp.s
+.PHONY : src/scene.s
+
+# target to generate assembly for a file
+src/scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/scene.cpp.s
+.PHONY : src/scene.cpp.s
+
+src/screen.o: src/screen.cpp.o
+.PHONY : src/screen.o
+
+# target to build an object file
+src/screen.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/screen.cpp.o
+.PHONY : src/screen.cpp.o
+
+src/screen.i: src/screen.cpp.i
+.PHONY : src/screen.i
+
+# target to preprocess a source file
+src/screen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/screen.cpp.i
+.PHONY : src/screen.cpp.i
+
+src/screen.s: src/screen.cpp.s
+.PHONY : src/screen.s
+
+# target to generate assembly for a file
+src/screen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/screen.cpp.s
+.PHONY : src/screen.cpp.s
 
 src/vec3.o: src/vec3.cpp.o
 .PHONY : src/vec3.o
@@ -258,18 +354,30 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
+	@echo "... src/background.o"
+	@echo "... src/background.i"
+	@echo "... src/background.s"
 	@echo "... src/color.o"
 	@echo "... src/color.i"
 	@echo "... src/color.s"
-	@echo "... src/image.o"
-	@echo "... src/image.i"
-	@echo "... src/image.s"
+	@echo "... src/elements.o"
+	@echo "... src/elements.i"
+	@echo "... src/elements.s"
+	@echo "... src/light.o"
+	@echo "... src/light.i"
+	@echo "... src/light.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/render_images.o"
-	@echo "... src/render_images.i"
-	@echo "... src/render_images.s"
+	@echo "... src/ray.o"
+	@echo "... src/ray.i"
+	@echo "... src/ray.s"
+	@echo "... src/scene.o"
+	@echo "... src/scene.i"
+	@echo "... src/scene.s"
+	@echo "... src/screen.o"
+	@echo "... src/screen.i"
+	@echo "... src/screen.s"
 	@echo "... src/vec3.o"
 	@echo "... src/vec3.i"
 	@echo "... src/vec3.s"

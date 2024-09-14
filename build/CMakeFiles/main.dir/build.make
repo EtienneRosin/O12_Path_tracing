@@ -83,38 +83,24 @@ CMakeFiles/main.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/main.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/etienne/Documents/Developer/O12_Path_tracing/src/main.cpp -o CMakeFiles/main.dir/src/main.cpp.s
 
-CMakeFiles/main.dir/src/render_images.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/render_images.cpp.o: /Users/etienne/Documents/Developer/O12_Path_tracing/src/render_images.cpp
-CMakeFiles/main.dir/src/render_images.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/etienne/Documents/Developer/O12_Path_tracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/render_images.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/render_images.cpp.o -MF CMakeFiles/main.dir/src/render_images.cpp.o.d -o CMakeFiles/main.dir/src/render_images.cpp.o -c /Users/etienne/Documents/Developer/O12_Path_tracing/src/render_images.cpp
+CMakeFiles/main.dir/src/background.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/background.cpp.o: /Users/etienne/Documents/Developer/O12_Path_tracing/src/background.cpp
+CMakeFiles/main.dir/src/background.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/etienne/Documents/Developer/O12_Path_tracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/background.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/background.cpp.o -MF CMakeFiles/main.dir/src/background.cpp.o.d -o CMakeFiles/main.dir/src/background.cpp.o -c /Users/etienne/Documents/Developer/O12_Path_tracing/src/background.cpp
 
-CMakeFiles/main.dir/src/render_images.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/render_images.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/etienne/Documents/Developer/O12_Path_tracing/src/render_images.cpp > CMakeFiles/main.dir/src/render_images.cpp.i
+CMakeFiles/main.dir/src/background.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/background.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/etienne/Documents/Developer/O12_Path_tracing/src/background.cpp > CMakeFiles/main.dir/src/background.cpp.i
 
-CMakeFiles/main.dir/src/render_images.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/render_images.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/etienne/Documents/Developer/O12_Path_tracing/src/render_images.cpp -o CMakeFiles/main.dir/src/render_images.cpp.s
-
-CMakeFiles/main.dir/src/vec3.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/vec3.cpp.o: /Users/etienne/Documents/Developer/O12_Path_tracing/src/vec3.cpp
-CMakeFiles/main.dir/src/vec3.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/etienne/Documents/Developer/O12_Path_tracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/vec3.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/vec3.cpp.o -MF CMakeFiles/main.dir/src/vec3.cpp.o.d -o CMakeFiles/main.dir/src/vec3.cpp.o -c /Users/etienne/Documents/Developer/O12_Path_tracing/src/vec3.cpp
-
-CMakeFiles/main.dir/src/vec3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/vec3.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/etienne/Documents/Developer/O12_Path_tracing/src/vec3.cpp > CMakeFiles/main.dir/src/vec3.cpp.i
-
-CMakeFiles/main.dir/src/vec3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/vec3.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/etienne/Documents/Developer/O12_Path_tracing/src/vec3.cpp -o CMakeFiles/main.dir/src/vec3.cpp.s
+CMakeFiles/main.dir/src/background.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/background.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/etienne/Documents/Developer/O12_Path_tracing/src/background.cpp -o CMakeFiles/main.dir/src/background.cpp.s
 
 CMakeFiles/main.dir/src/color.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/color.cpp.o: /Users/etienne/Documents/Developer/O12_Path_tracing/src/color.cpp
 CMakeFiles/main.dir/src/color.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/etienne/Documents/Developer/O12_Path_tracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/color.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/etienne/Documents/Developer/O12_Path_tracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/color.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/color.cpp.o -MF CMakeFiles/main.dir/src/color.cpp.o.d -o CMakeFiles/main.dir/src/color.cpp.o -c /Users/etienne/Documents/Developer/O12_Path_tracing/src/color.cpp
 
 CMakeFiles/main.dir/src/color.cpp.i: cmake_force
@@ -125,39 +111,117 @@ CMakeFiles/main.dir/src/color.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/color.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/etienne/Documents/Developer/O12_Path_tracing/src/color.cpp -o CMakeFiles/main.dir/src/color.cpp.s
 
-CMakeFiles/main.dir/src/image.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/image.cpp.o: /Users/etienne/Documents/Developer/O12_Path_tracing/src/image.cpp
-CMakeFiles/main.dir/src/image.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/etienne/Documents/Developer/O12_Path_tracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/image.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/image.cpp.o -MF CMakeFiles/main.dir/src/image.cpp.o.d -o CMakeFiles/main.dir/src/image.cpp.o -c /Users/etienne/Documents/Developer/O12_Path_tracing/src/image.cpp
+CMakeFiles/main.dir/src/elements.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/elements.cpp.o: /Users/etienne/Documents/Developer/O12_Path_tracing/src/elements.cpp
+CMakeFiles/main.dir/src/elements.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/etienne/Documents/Developer/O12_Path_tracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/elements.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/elements.cpp.o -MF CMakeFiles/main.dir/src/elements.cpp.o.d -o CMakeFiles/main.dir/src/elements.cpp.o -c /Users/etienne/Documents/Developer/O12_Path_tracing/src/elements.cpp
 
-CMakeFiles/main.dir/src/image.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/image.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/etienne/Documents/Developer/O12_Path_tracing/src/image.cpp > CMakeFiles/main.dir/src/image.cpp.i
+CMakeFiles/main.dir/src/elements.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/elements.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/etienne/Documents/Developer/O12_Path_tracing/src/elements.cpp > CMakeFiles/main.dir/src/elements.cpp.i
 
-CMakeFiles/main.dir/src/image.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/image.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/etienne/Documents/Developer/O12_Path_tracing/src/image.cpp -o CMakeFiles/main.dir/src/image.cpp.s
+CMakeFiles/main.dir/src/elements.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/elements.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/etienne/Documents/Developer/O12_Path_tracing/src/elements.cpp -o CMakeFiles/main.dir/src/elements.cpp.s
+
+CMakeFiles/main.dir/src/light.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/light.cpp.o: /Users/etienne/Documents/Developer/O12_Path_tracing/src/light.cpp
+CMakeFiles/main.dir/src/light.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/etienne/Documents/Developer/O12_Path_tracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/light.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/light.cpp.o -MF CMakeFiles/main.dir/src/light.cpp.o.d -o CMakeFiles/main.dir/src/light.cpp.o -c /Users/etienne/Documents/Developer/O12_Path_tracing/src/light.cpp
+
+CMakeFiles/main.dir/src/light.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/light.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/etienne/Documents/Developer/O12_Path_tracing/src/light.cpp > CMakeFiles/main.dir/src/light.cpp.i
+
+CMakeFiles/main.dir/src/light.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/light.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/etienne/Documents/Developer/O12_Path_tracing/src/light.cpp -o CMakeFiles/main.dir/src/light.cpp.s
+
+CMakeFiles/main.dir/src/ray.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/ray.cpp.o: /Users/etienne/Documents/Developer/O12_Path_tracing/src/ray.cpp
+CMakeFiles/main.dir/src/ray.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/etienne/Documents/Developer/O12_Path_tracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/ray.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/ray.cpp.o -MF CMakeFiles/main.dir/src/ray.cpp.o.d -o CMakeFiles/main.dir/src/ray.cpp.o -c /Users/etienne/Documents/Developer/O12_Path_tracing/src/ray.cpp
+
+CMakeFiles/main.dir/src/ray.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/ray.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/etienne/Documents/Developer/O12_Path_tracing/src/ray.cpp > CMakeFiles/main.dir/src/ray.cpp.i
+
+CMakeFiles/main.dir/src/ray.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/ray.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/etienne/Documents/Developer/O12_Path_tracing/src/ray.cpp -o CMakeFiles/main.dir/src/ray.cpp.s
+
+CMakeFiles/main.dir/src/scene.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/scene.cpp.o: /Users/etienne/Documents/Developer/O12_Path_tracing/src/scene.cpp
+CMakeFiles/main.dir/src/scene.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/etienne/Documents/Developer/O12_Path_tracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/scene.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/scene.cpp.o -MF CMakeFiles/main.dir/src/scene.cpp.o.d -o CMakeFiles/main.dir/src/scene.cpp.o -c /Users/etienne/Documents/Developer/O12_Path_tracing/src/scene.cpp
+
+CMakeFiles/main.dir/src/scene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/scene.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/etienne/Documents/Developer/O12_Path_tracing/src/scene.cpp > CMakeFiles/main.dir/src/scene.cpp.i
+
+CMakeFiles/main.dir/src/scene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/scene.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/etienne/Documents/Developer/O12_Path_tracing/src/scene.cpp -o CMakeFiles/main.dir/src/scene.cpp.s
+
+CMakeFiles/main.dir/src/screen.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/screen.cpp.o: /Users/etienne/Documents/Developer/O12_Path_tracing/src/screen.cpp
+CMakeFiles/main.dir/src/screen.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/etienne/Documents/Developer/O12_Path_tracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/src/screen.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/screen.cpp.o -MF CMakeFiles/main.dir/src/screen.cpp.o.d -o CMakeFiles/main.dir/src/screen.cpp.o -c /Users/etienne/Documents/Developer/O12_Path_tracing/src/screen.cpp
+
+CMakeFiles/main.dir/src/screen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/screen.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/etienne/Documents/Developer/O12_Path_tracing/src/screen.cpp > CMakeFiles/main.dir/src/screen.cpp.i
+
+CMakeFiles/main.dir/src/screen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/screen.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/etienne/Documents/Developer/O12_Path_tracing/src/screen.cpp -o CMakeFiles/main.dir/src/screen.cpp.s
+
+CMakeFiles/main.dir/src/vec3.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/vec3.cpp.o: /Users/etienne/Documents/Developer/O12_Path_tracing/src/vec3.cpp
+CMakeFiles/main.dir/src/vec3.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/etienne/Documents/Developer/O12_Path_tracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/src/vec3.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/vec3.cpp.o -MF CMakeFiles/main.dir/src/vec3.cpp.o.d -o CMakeFiles/main.dir/src/vec3.cpp.o -c /Users/etienne/Documents/Developer/O12_Path_tracing/src/vec3.cpp
+
+CMakeFiles/main.dir/src/vec3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/vec3.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/etienne/Documents/Developer/O12_Path_tracing/src/vec3.cpp > CMakeFiles/main.dir/src/vec3.cpp.i
+
+CMakeFiles/main.dir/src/vec3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/vec3.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/etienne/Documents/Developer/O12_Path_tracing/src/vec3.cpp -o CMakeFiles/main.dir/src/vec3.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/src/main.cpp.o" \
-"CMakeFiles/main.dir/src/render_images.cpp.o" \
-"CMakeFiles/main.dir/src/vec3.cpp.o" \
+"CMakeFiles/main.dir/src/background.cpp.o" \
 "CMakeFiles/main.dir/src/color.cpp.o" \
-"CMakeFiles/main.dir/src/image.cpp.o"
+"CMakeFiles/main.dir/src/elements.cpp.o" \
+"CMakeFiles/main.dir/src/light.cpp.o" \
+"CMakeFiles/main.dir/src/ray.cpp.o" \
+"CMakeFiles/main.dir/src/scene.cpp.o" \
+"CMakeFiles/main.dir/src/screen.cpp.o" \
+"CMakeFiles/main.dir/src/vec3.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
 main: CMakeFiles/main.dir/src/main.cpp.o
-main: CMakeFiles/main.dir/src/render_images.cpp.o
-main: CMakeFiles/main.dir/src/vec3.cpp.o
+main: CMakeFiles/main.dir/src/background.cpp.o
 main: CMakeFiles/main.dir/src/color.cpp.o
-main: CMakeFiles/main.dir/src/image.cpp.o
+main: CMakeFiles/main.dir/src/elements.cpp.o
+main: CMakeFiles/main.dir/src/light.cpp.o
+main: CMakeFiles/main.dir/src/ray.cpp.o
+main: CMakeFiles/main.dir/src/scene.cpp.o
+main: CMakeFiles/main.dir/src/screen.cpp.o
+main: CMakeFiles/main.dir/src/vec3.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/etienne/Documents/Developer/O12_Path_tracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/etienne/Documents/Developer/O12_Path_tracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

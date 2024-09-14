@@ -16,7 +16,7 @@
 #include <iostream>
 #include <fstream>
 #include <stdexcept>
-#include <sstream>
+// #include <sstream>
 #include <iomanip>
 
 // Constructor that initializes the image with a specific width and height.

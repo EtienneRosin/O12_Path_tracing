@@ -84,4 +84,4 @@ public:
     void save_as_ppm(const std::string &filename) const;
 };
 
-#endif
+#endif // IMAGE_HPP_

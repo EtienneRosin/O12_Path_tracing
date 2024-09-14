@@ -8,10 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/etienne/Documents/Developer/O12_Path_tracing/src/background.cpp" "CMakeFiles/main.dir/src/background.cpp.o" "gcc" "CMakeFiles/main.dir/src/background.cpp.o.d"
   "/Users/etienne/Documents/Developer/O12_Path_tracing/src/color.cpp" "CMakeFiles/main.dir/src/color.cpp.o" "gcc" "CMakeFiles/main.dir/src/color.cpp.o.d"
-  "/Users/etienne/Documents/Developer/O12_Path_tracing/src/image.cpp" "CMakeFiles/main.dir/src/image.cpp.o" "gcc" "CMakeFiles/main.dir/src/image.cpp.o.d"
+  "/Users/etienne/Documents/Developer/O12_Path_tracing/src/elements.cpp" "CMakeFiles/main.dir/src/elements.cpp.o" "gcc" "CMakeFiles/main.dir/src/elements.cpp.o.d"
+  "/Users/etienne/Documents/Developer/O12_Path_tracing/src/light.cpp" "CMakeFiles/main.dir/src/light.cpp.o" "gcc" "CMakeFiles/main.dir/src/light.cpp.o.d"
   "/Users/etienne/Documents/Developer/O12_Path_tracing/src/main.cpp" "CMakeFiles/main.dir/src/main.cpp.o" "gcc" "CMakeFiles/main.dir/src/main.cpp.o.d"
-  "/Users/etienne/Documents/Developer/O12_Path_tracing/src/render_images.cpp" "CMakeFiles/main.dir/src/render_images.cpp.o" "gcc" "CMakeFiles/main.dir/src/render_images.cpp.o.d"
+  "/Users/etienne/Documents/Developer/O12_Path_tracing/src/ray.cpp" "CMakeFiles/main.dir/src/ray.cpp.o" "gcc" "CMakeFiles/main.dir/src/ray.cpp.o.d"
+  "/Users/etienne/Documents/Developer/O12_Path_tracing/src/scene.cpp" "CMakeFiles/main.dir/src/scene.cpp.o" "gcc" "CMakeFiles/main.dir/src/scene.cpp.o.d"
+  "/Users/etienne/Documents/Developer/O12_Path_tracing/src/screen.cpp" "CMakeFiles/main.dir/src/screen.cpp.o" "gcc" "CMakeFiles/main.dir/src/screen.cpp.o.d"
   "/Users/etienne/Documents/Developer/O12_Path_tracing/src/vec3.cpp" "CMakeFiles/main.dir/src/vec3.cpp.o" "gcc" "CMakeFiles/main.dir/src/vec3.cpp.o.d"
   )
 
